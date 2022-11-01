@@ -97,7 +97,7 @@ button {
 }
 
 .footer{
-    background-color:var(--hero-color); 
+    background-color:var(--hero-color);
 }
 
 .address-title .address{
@@ -113,7 +113,7 @@ button {
 
     font-style: normal;
     font-size: 14px;
-    line-height: 1.71
+    line-height: 1.5;
     text-decoration: none;
 }
 
@@ -136,6 +136,7 @@ button {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button-primary {
@@ -202,7 +203,7 @@ button {
 
                                 /*portfolio.html*/
 
-.buttons {
+.buttons .button.secondary {
     color: var(--primary-text-color);
     background-color: var(--primary-bg-color);
 
@@ -217,6 +218,7 @@ button {
 .button.secondary:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    
 }
 
 .project-list .project-title{
